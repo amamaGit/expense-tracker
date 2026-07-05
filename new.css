@@ -1,0 +1,55 @@
+body, .stApp {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    background: linear-gradient(to right,teal 50%, skyblue 50%) !important;
+    color: white !important; 
+}
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  text-align: center;
+}
+h3 {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: white !important;
+}
+/* .button {
+  display: block;
+  
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+  justify-content: center; /* Centers horizontally */
+.button {
+  
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 1;        /* Forces the text box to take up remaining space */
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+.block{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; 
+  
+}
